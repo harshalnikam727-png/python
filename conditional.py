@@ -81,3 +81,30 @@ c=int (input ())
 d=int ( input ())
 avg(c,d)
 less(c,d)
+def average(*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("average is :",sum/len(numbers))
+a=int(input("enter first number: "))
+b=int(input("enter second number: "))
+average(a,b)
+def gmean(a,b):
+    gmean=(a*b)**(1/2)
+    print("geometric mean is:",gmean)
+a=int(input("enter the first number:"))
+b=int(input("enter the second number:"))
+gmean(a,b)
+def greater(a,b):
+    if(a>b):
+        print("a is greater than b")
+    elif(a==b):
+        print("a is equal to b")
+    else:
+        print("a is less than b")
+a=int(input("enter a :"))
+b=int(input("enter b: "))
+greater(a,b)
+
+        
+
