@@ -39,5 +39,25 @@ doing btech in "mechanical"
 print(name[0:4])
 print(fruit[-8:-4])
 print(name[0:5])
-
+fruits=["apple","banana","cherry","mango","orange","papaya"]
+print(fruits[0])
+print(fruits[-1])
+print(fruits[-2])
+num=[10,20,30,40,50,60,70,80,90,100]
+print(num[2 :6])
+print(len(num))
+print(num[-4:])
+print(num[::2])
+print(num[9:0])
+inv=["pen","pencil","eraser","notebook"]
+a=input()
+if a in inv:
+    print("in stock")
+else:
+    print("out of stock")
+l=[45,88,72,90,56,88,34,88,100]
+print(l.count(88))
+l.sort()
+print(l)
+print(l.index(72))
 
